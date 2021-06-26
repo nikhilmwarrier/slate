@@ -1,0 +1,30 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+	height: 100%;
+	width: 100%;
+	font-family: "Roboto", sans-serif;
+	font-size: 1rem;
+	transition: background 0.2s ease;
+}
+
+body.dark {
+	background: #333;
+	color: #eee;
+}
+
+h1 {
+	font-weight: normal;
+}
+
+#app {
+	display: grid;
+	grid-template-columns: 100%;
+	grid-template-rows: 4rem 1fr;
+}

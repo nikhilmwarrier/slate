@@ -1,0 +1,14 @@
+{
+	"mount": {
+		"dist": "/",
+		"src": "/"
+	},
+	"optimize": {
+		"bundle": true,
+		"minify": true,
+		"target": "es2017"
+	},
+	"devOptions": {
+		"open": "none"
+	}
+}
