@@ -1,4 +1,6 @@
-# Optimized React Snowpack Template
+# Slate
+A notes app with markdown and localStorage support
+Built on React
 
 ## How to run on localhost
 
